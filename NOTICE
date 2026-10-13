@@ -1,0 +1,9 @@
+Mosaico Trackpad
+Copyright 2026 Mosaico Trackpad contributors
+
+Original project code is licensed under Apache License 2.0.
+Vendored components retain their respective licenses and copyright notices.
+
+main/board.c includes work adapted from esp-mosaico-bsp:
+Copyright 2026 Espressif Systems (Shanghai) CO LTD
+Licensed under Apache License 2.0. See THIRD_PARTY.md for attribution and changes.

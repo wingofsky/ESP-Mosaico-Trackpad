@@ -1,0 +1,19 @@
+build*/
+sdkconfig
+sdkconfig.old
+managed_components/
+# Local third-party dependencies; keep the driver with project-specific fixes.
+/components/*
+!/components/esp_lcd_touch_cst9220/
+private/
+artifacts/
+tests/gesture_test
+*.dSYM/
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+*.bundle

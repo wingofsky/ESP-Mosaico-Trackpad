@@ -1,0 +1,54 @@
+{
+  "sdk": {
+    "repository": "https://github.com/espressif/esp-idf.git",
+    "commit": "7b9cc1ac79f865983f59bb8ff3ff43eb74ff1dbe"
+  },
+  "hash_format": "sorted POSIX relative path + NUL + decimal byte length + NUL + raw file bytes, SHA-256",
+  "components": {
+    "cmake_utilities": {
+      "version": "0.5.3",
+      "release": "https://components.espressif.com/components/espressif/cmake_utilities/versions/0.5.3",
+      "tree_sha256": "ebd342272d61edf9efd5af81207642b6c0b70ccf6292d52559887c6d0ff70af8"
+    },
+    "esp_lcd_co5300": {
+      "version": "2.2.0",
+      "release": "https://components.espressif.com/components/espressif/esp_lcd_co5300/versions/2.2.0",
+      "tree_sha256": "5a6e6b8ea5724c881aad382b5a90cc760efec9548d0ee7356333a1043e4251a8",
+      "repository": "https://github.com/espressif/esp-iot-solution.git",
+      "commit": "2d289eb1f14431e345b345c3fd6fc299a555d770",
+      "path": "components/display/lcd/esp_lcd_co5300"
+    },
+    "esp_lcd_touch": {
+      "version": "1.2.1",
+      "release": "https://components.espressif.com/components/espressif/esp_lcd_touch/versions/1.2.1",
+      "tree_sha256": "e17b5c2cfe114474570645727264ac09f47fb73a05b03ecba670b4b0ad7016f5",
+      "repository": "https://github.com/espressif/esp-bsp.git",
+      "commit": "c927778a85eed239dd403c1719d4f543ad56e693",
+      "path": "components/lcd_touch/esp_lcd_touch"
+    },
+    "esp_lcd_touch_cst9220": {
+      "version": "0.1.1",
+      "release": "https://components.espressif.com/components/espressif/esp_lcd_touch_cst9220/versions/0.1.1",
+      "tree_sha256": "79aae3843ae5846828ab274d3390eab861b6ad25eb95148346d35cdf878d48bc",
+      "repository": "https://github.com/espressif/esp-iot-solution.git",
+      "commit": "8eee17c20da66048faa20c683ffeb80bfa85d723",
+      "path": "components/display/lcd_touch/esp_lcd_touch_cst9220"
+    },
+    "esp_tinyusb": {
+      "version": "2.3.0",
+      "release": "https://components.espressif.com/components/espressif/esp_tinyusb/versions/2.3.0",
+      "tree_sha256": "52c58f5acdb4480e008343717e2d1cc7a4607c3441b6b0fc1b9ab2a35359a4a6",
+      "repository": "https://github.com/espressif/esp-usb.git",
+      "commit": "0a1e5fd0f7f9d3c58a0d4949b5d1bfbf23af8d96",
+      "path": "device/esp_tinyusb"
+    },
+    "tinyusb": {
+      "version": "0.21.0~2",
+      "release": "https://components.espressif.com/components/espressif/tinyusb/versions/0.21.0~2",
+      "tree_sha256": "c1cc095feab9691efdc08204ec20e40873a5b8c790f9ab7d256229a0763a5de0",
+      "repository": "https://github.com/espressif/tinyusb.git",
+      "commit": "894ea01409e0407a7dbe0ee29b2d58a4691f9046",
+      "path": "."
+    }
+  }
+}

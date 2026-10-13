@@ -1,0 +1,9 @@
+menu "Mosaico Trackpad"
+config TRACKPAD_DIAGNOSTICS
+    bool "Enable development-only trace, HID test and software bootloader commands"
+    default n
+    help
+        Allows a process with USB serial access to observe touch coordinates,
+        inject test motion or restart into the ROM downloader. Keep disabled
+        for ordinary use. The status command remains available.
+endmenu
